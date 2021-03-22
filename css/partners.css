@@ -1,0 +1,18 @@
+body {
+    font-size: 15px;
+}
+.skin-purple .main-header .navbar .nav>li>a {
+    font-weight: 600;
+}
+.partner-panel {
+    height: auto; min-height: 100%;
+}
+.partner-panel .navbar-brand {
+    padding: 0 15px;
+}
+.partner-panel .logo {
+    height:100%;
+}
+.partner-panel .box-body {
+    /* min-height: 156px; */
+}
