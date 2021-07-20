@@ -38,11 +38,15 @@ div.FixedHeader_Cloned td {
 .dt-buttons {
     background: #3c8dbc;
     margin: 0;
-    padding: 0;
     height: 37px;
     border-radius: 3px;
     padding: 4px;
     margin-bottom: 10px;
+}
+.btn-default {
+    background-color: #3c8dbc;
+    color: #fff;
+    border: none;
 }
 /* a.dt-button:not(:first-child) {
     border-left: 1px solid #fff;
