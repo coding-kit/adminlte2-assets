@@ -43,10 +43,11 @@ div.FixedHeader_Cloned td {
     padding: 4px;
     margin-bottom: 10px;
 }
-.btn-default {
+.dt-buttons button {
     background-color: #3c8dbc;
     color: #fff;
     border: none;
+    padding-bottom: 3px;
 }
 /* a.dt-button:not(:first-child) {
     border-left: 1px solid #fff;
