@@ -30,6 +30,12 @@ div.FixedHeader_Cloned td {
     background-color: white !important;
 }
 
+table.dataTable thead th.text-right,
+table.dataTable thead td.text-right,
+table.dataTable tfoot th.text-right,
+table.dataTable tfoot td.text-right {
+    text-align: right;
+}
 /* DataTable export button */
 /* div.dt-buttons {
     position: relative;
@@ -38,7 +44,6 @@ div.FixedHeader_Cloned td {
 .dt-buttons {
     background: #3c8dbc;
     margin: 0;
-    height: 37px;
     border-radius: 3px;
     padding: 4px;
     margin-bottom: 10px;
@@ -52,6 +57,14 @@ div.FixedHeader_Cloned td {
 /* a.dt-button:not(:first-child) {
     border-left: 1px solid #fff;
 } */
+div.dt-buttons {
+    float: none;
+}
+div.dt-button-collection,
+div.dt-button-collection .dt-button {
+     width: auto;
+     min-width: auto;
+}
 button.dt-button,
 div.dt-button,
 a.dt-button {
